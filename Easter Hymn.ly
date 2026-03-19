@@ -15,11 +15,9 @@
 
 
 global = {
-  \key d \major
   \time 4/4
   \section
   \sectionLabel "Introduction"
-  % Music follows here.
   s1*19
   \break
   \section
@@ -50,6 +48,7 @@ global = {
 }
 
 scoreATrumpetBbI = \relative c'' {
+  \key d \major
   R1*2 |
   a8-- fs-- g-- a->~ a-- c-- d-- e-- |
   f-- e-- d-- e--~ e4 d-- |
@@ -122,7 +121,7 @@ scoreATrumpetBbI = \relative c'' {
 }
 
 scoreATrumpetBbII = \relative c' {
-
+  \key d \major
   R1*2 |
   fs8-- d-- e-- fs->~ fs e4. |
   d4 f8-- e--~ e4 fs-- |
