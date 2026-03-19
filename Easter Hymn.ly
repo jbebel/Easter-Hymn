@@ -206,8 +206,8 @@ scoreATrumpetBbIIPart = \new Staff \with {
 
 % --- THE FULL SCORE ---
 \book {
-  \bookOutputSuffix "Score"
-  \header { instrument = "Full Score" }
+  \bookOutputSuffix "Trumpets"
+  \header { instrument = "Trumpets in Bb" }
   \score {
     <<
       % Put \global ONLY in the first staff. The Score context will catch 
