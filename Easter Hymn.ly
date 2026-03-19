@@ -2,7 +2,7 @@
 \language "english"
 
 \header {
-  title = "Easter Hymn."
+  title = "Easter Hymn"
   subtitle = "Lyra Davidica, 1708"
   composer = "Setting by Hal H. Hopson"
   tagline = ##f
